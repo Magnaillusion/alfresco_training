@@ -1,0 +1,29 @@
+<alfresco-config>
+    <config evaluator="string-compare" condition="DocumentLibrary">
+      <aspects>
+
+         <visible>
+            <aspect name="fsc:copyrighted" />
+         </visible>
+
+         <addable>
+         </addable>
+
+         <removeable>
+         </removeable>
+      </aspects>
+
+      <types>
+         <type name="cm:content">
+            <subtype name="fsc:image">
+         </type>
+
+         <type name="cm:folder">
+         </type>
+
+         <type name="trx:transferTarget">
+               <subtype name="trx:fileTransferTarget" />
+         </type>
+      </types>
+    </config>
+</alfresco-config>

@@ -1,0 +1,16 @@
+08:27:43,013 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
+08:27:43,167 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
+08:27:43,168 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
+08:27:43,192 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
+08:27:47,268 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 353 Web Scripts (+0 failed), 367 URLs
+08:27:47,268 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 8 Package Description Documents (+0 failed) 
+08:27:47,268 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
+08:27:47,938 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] Initialised Spring Surf Container Web Script Container (in 4719.693ms)
+08:27:47,955 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
+08:27:47,961 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
+08:27:48,242 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_US
+08:28:50,884 INFO  [org.alfresco.web.site.EditionInterceptor] Successfully retrieved license information from Alfresco.
+08:29:19,538 INFO  [org.alfresco.web.scripts.ImapServerStatus] Successfully retrieved IMAP server status from Alfresco: disabled
+08:31:31,285 INFO  [org.alfresco.web.scripts.GoogleDocsStatus] Successfully retrieved Google Docs subsystem status from Alfresco: false
+08:31:34,480 INFO  [org.alfresco.web.scripts.DictionaryQuery] Successfully retrieved Data Dictionary from Alfresco.
+08:31:41,170 INFO  [org.alfresco.web.scripts.MimetypesQuery] Successfully retrieved mimetypes information from Alfresco.
