@@ -1,2 +1,4 @@
 add|/WEB-INF/lib/lab-content-model-share.jar
-update|/WEB-INF/classes/alfresco/module/lab-content-model-share/log4j.properties|/WEB-INF/classes/alfresco/module/backup/f650e07d-c282-11e4-8813-b3c6c26330cf.bin
+update|/WEB-INF/classes/alfresco/web-extension/lab-content-model-share-context.xml|/WEB-INF/classes/alfresco/module/backup/7b1a2ba1-c350-11e4-b5cb-8f97c3224e9b.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-share/log4j.properties|/WEB-INF/classes/alfresco/module/backup/7b1bd953-c350-11e4-b5cb-8f97c3224e9b.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-share/messages/labContentModel.properties|/WEB-INF/classes/alfresco/module/backup/7b1b8b32-c350-11e4-b5cb-8f97c3224e9b.bin

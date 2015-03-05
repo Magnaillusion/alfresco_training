@@ -1,5 +1,5 @@
 add|/WEB-INF/lib/lab-content-model-repo.jar
-update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/module-context.xml|/WEB-INF/classes/alfresco/module/backup/8b59e0b7-c276-11e4-97be-b1b38fca3847.bin
-update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/model/labContentModel.xml|/WEB-INF/classes/alfresco/module/backup/8b596b85-c276-11e4-97be-b1b38fca3847.bin
-update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/context/service-context.xml|/WEB-INF/classes/alfresco/module/backup/8b580bf4-c276-11e4-97be-b1b38fca3847.bin
-update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/log4j.properties|/WEB-INF/classes/alfresco/module/backup/8b599296-c276-11e4-97be-b1b38fca3847.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/module-context.xml|/WEB-INF/classes/alfresco/module/backup/3cbf2363-c340-11e4-afce-239e743b6a87.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/model/labContentModel.xml|/WEB-INF/classes/alfresco/module/backup/3cbe6011-c340-11e4-afce-239e743b6a87.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/context/service-context.xml|/WEB-INF/classes/alfresco/module/backup/3cbc8b50-c340-11e4-afce-239e743b6a87.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/log4j.properties|/WEB-INF/classes/alfresco/module/backup/3cbeae32-c340-11e4-afce-239e743b6a87.bin

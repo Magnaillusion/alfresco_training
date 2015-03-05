@@ -15,7 +15,7 @@
 
       <types>
          <type name="cm:content">
-            <subtype name="fsc:image">
+            <subtype name="fsc:image" />
          </type>
 
          <type name="cm:folder">

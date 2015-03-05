@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+
+<beans>
+    <bean id="lab-content-model-share_resources"
+          class="org.springframework.extensions.surf.util.ResourceBundleBootstrapComponent">
+        <property name="resourceBundles">
+            <list>
+                <value>alfresco.module.lab-content-model-share.messages.labContentModel</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="evaluator.doclib.metadata.isFSCCopyrighted" parent="evaluator.doclib.metadata.hasAspect">
+        <property name="aspects">
+            <list>
+                <value>fsc:copyrighted</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>
