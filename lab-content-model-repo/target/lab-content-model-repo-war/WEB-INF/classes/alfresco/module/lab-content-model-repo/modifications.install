@@ -1,5 +1,11 @@
 add|/WEB-INF/lib/lab-content-model-repo.jar
-update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/module-context.xml|/WEB-INF/classes/alfresco/module/backup/3cbf2363-c340-11e4-afce-239e743b6a87.bin
-update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/model/labContentModel.xml|/WEB-INF/classes/alfresco/module/backup/3cbe6011-c340-11e4-afce-239e743b6a87.bin
-update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/context/service-context.xml|/WEB-INF/classes/alfresco/module/backup/3cbc8b50-c340-11e4-afce-239e743b6a87.bin
-update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/log4j.properties|/WEB-INF/classes/alfresco/module/backup/3cbeae32-c340-11e4-afce-239e743b6a87.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/module-context.xml|/WEB-INF/classes/alfresco/module/backup/65e787b7-c66b-11e4-9ea3-811ad6867f9f.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/model/labContentModel.xml|/WEB-INF/classes/alfresco/module/backup/65e67645-c66b-11e4-9ea3-811ad6867f9f.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/workflows/copyright-images.bpmn20.xml|/WEB-INF/classes/alfresco/module/backup/65e62824-c66b-11e4-9ea3-811ad6867f9f.bin
+update|/WEB-INF/classes/alfresco/extension/templates/webscripts/com/flatironssolutions/copyrightedimages.get.json.ftl|/WEB-INF/classes/alfresco/module/backup/65e9aa99-c66b-11e4-9ea3-811ad6867f9f.bin
+update|/WEB-INF/classes/alfresco/extension/templates/webscripts/com/flatironssolutions/copyrightedimages.get.js|/WEB-INF/classes/alfresco/module/backup/65ec42ac-c66b-11e4-9ea3-811ad6867f9f.bin
+update|/WEB-INF/classes/alfresco/extension/templates/webscripts/com/flatironssolutions/copyrightedimages.get.html.ftl|/WEB-INF/classes/alfresco/module/backup/65e9f8ba-c66b-11e4-9ea3-811ad6867f9f.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/context/service-context.xml|/WEB-INF/classes/alfresco/module/backup/65e4efa3-c66b-11e4-9ea3-811ad6867f9f.bin
+update|/WEB-INF/classes/alfresco/extension/templates/webscripts/com/flatironssolutions/copyrightedimages.get.desc.xml|/WEB-INF/classes/alfresco/module/backup/65e87218-c66b-11e4-9ea3-811ad6867f9f.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-repo/log4j.properties|/WEB-INF/classes/alfresco/module/backup/65e69d56-c66b-11e4-9ea3-811ad6867f9f.bin
+update|/WEB-INF/classes/alfresco/extension/templates/webscripts/com/flatironssolutions/javacopyrightedimages.get.desc.xml|/WEB-INF/classes/alfresco/module/backup/65eb0a2b-c66b-11e4-9ea3-811ad6867f9f.bin

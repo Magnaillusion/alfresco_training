@@ -25,4 +25,10 @@
             </list>
         </property>
     </bean>
+
+    <bean id="webscript.com.flatironssolutions.javacopyrightedimages.get" class="com.flatironssolutions.webscripts.CopyrightedImages" parent="webscript">
+        <property name="repository" ref="repositoryHelper" />
+        <property name="registry" ref="ServiceRegistry" />
+    </bean>
+
 </beans>

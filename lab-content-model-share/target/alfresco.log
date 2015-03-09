@@ -1,16 +1,30 @@
-08:58:59,389 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
-08:58:59,575 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
-08:58:59,582 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
-08:58:59,590 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
-08:59:05,038 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 353 Web Scripts (+0 failed), 367 URLs
-08:59:05,039 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 8 Package Description Documents (+0 failed) 
-08:59:05,039 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
-08:59:05,682 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] Initialised Spring Surf Container Web Script Container (in 6069.4785ms)
-08:59:05,708 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
-08:59:05,719 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
-08:59:06,000 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_US
-08:59:35,407 INFO  [org.alfresco.web.site.EditionInterceptor] Successfully retrieved license information from Alfresco.
-09:00:27,774 INFO  [org.alfresco.web.scripts.ImapServerStatus] Successfully retrieved IMAP server status from Alfresco: disabled
-09:00:33,018 INFO  [org.alfresco.web.scripts.GoogleDocsStatus] Successfully retrieved Google Docs subsystem status from Alfresco: false
-09:00:36,833 INFO  [org.alfresco.web.scripts.DictionaryQuery] Successfully retrieved Data Dictionary from Alfresco.
-09:00:44,932 INFO  [org.alfresco.web.scripts.MimetypesQuery] Successfully retrieved mimetypes information from Alfresco.
+10:27:16,203 ERROR [org.springframework.web.context.ContextLoader] Context initialization failed
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [workflowDeployer] for bean with name 'com.flatironssolutions.workflowBootstrap' defined in file [/data/workspace/lab-content-model-share/target/lab-content-model-share-war/WEB-INF/classes/alfresco/web-extension/lab-content-model-share-context.xml]; nested exception is java.lang.ClassNotFoundException: workflowDeployer
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:885)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:562)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:276)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4797)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.ClassNotFoundException: workflowDeployer
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1713)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1558)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:257)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:408)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1271)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1242)
+	... 18 more
+10:27:16,347 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_US

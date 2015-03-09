@@ -1,0 +1,6 @@
+<webscript>
+    <shortname>Copyrighted Images</shortname>
+    <description>Alfresco Training Lab Copyrighted Image Listing</description>
+    <url>components/dashlets/copyrightedimages</url>
+    <family>user-dashlet</family>
+</webscript>

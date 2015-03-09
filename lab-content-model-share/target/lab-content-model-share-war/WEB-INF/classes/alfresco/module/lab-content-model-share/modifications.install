@@ -1,4 +1,9 @@
 add|/WEB-INF/lib/lab-content-model-share.jar
-update|/WEB-INF/classes/alfresco/web-extension/lab-content-model-share-context.xml|/WEB-INF/classes/alfresco/module/backup/7b1a2ba1-c350-11e4-b5cb-8f97c3224e9b.bin
-update|/WEB-INF/classes/alfresco/module/lab-content-model-share/log4j.properties|/WEB-INF/classes/alfresco/module/backup/7b1bd953-c350-11e4-b5cb-8f97c3224e9b.bin
-update|/WEB-INF/classes/alfresco/module/lab-content-model-share/messages/labContentModel.properties|/WEB-INF/classes/alfresco/module/backup/7b1b8b32-c350-11e4-b5cb-8f97c3224e9b.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-share/workflows/copyright-images.bpmn20.xml|/WEB-INF/classes/alfresco/module/backup/1cc82a45-c679-11e4-ad00-250998f5ba5b.bin
+update|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/compontnets/dashlets/copyrightedimages.get.desc.xml|/WEB-INF/classes/alfresco/module/backup/1cc5b940-c679-11e4-ad00-250998f5ba5b.bin
+update|/WEB-INF/classes/alfresco/web-extension/lab-content-model-share-context.xml|/WEB-INF/classes/alfresco/module/backup/1cc7b514-c679-11e4-ad00-250998f5ba5b.bin
+update|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/compontnets/dashlets/copyrightedimages.get.properties|/WEB-INF/classes/alfresco/module/backup/1cc73fe2-c679-11e4-ad00-250998f5ba5b.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-share/log4j.properties|/WEB-INF/classes/alfresco/module/backup/1cc89f77-c679-11e4-ad00-250998f5ba5b.bin
+update|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/compontnets/dashlets/copyrightedimages.get.html.ftl|/WEB-INF/classes/alfresco/module/backup/1cc718d1-c679-11e4-ad00-250998f5ba5b.bin
+update|/WEB-INF/classes/alfresco/module/lab-content-model-share/messages/labContentModel.properties|/WEB-INF/classes/alfresco/module/backup/1cc87866-c679-11e4-ad00-250998f5ba5b.bin
+update|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/compontnets/dashlets/copyrightedimages.get.js|/WEB-INF/classes/alfresco/module/backup/1cc78e03-c679-11e4-ad00-250998f5ba5b.bin
