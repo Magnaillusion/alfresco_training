@@ -1,14 +1,13 @@
-10:31:57,348 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
-10:31:57,641 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
-10:31:57,641 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
-10:31:57,659 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
-10:32:04,289 WARN  [org.springframework.extensions.webscripts.DeclarativeRegistry] Unable to register script classpath:alfresco/web-extension/site-webscripts/com/flatironssolutions/components/dashlets/copyrightedimages.get.desc.xml due to error: 02110000 URI Template malformed: components/dashlets/copyrightedimages
-10:32:04,289 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 354 Web Scripts (+1 failed), 367 URLs
-10:32:04,289 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 8 Package Description Documents (+0 failed) 
-10:32:04,289 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
-10:32:04,767 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] Initialised Spring Surf Container Web Script Container (in 7036.87ms)
-10:32:04,803 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
-10:32:04,843 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
-10:32:05,324 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_US
-10:32:22,634 INFO  [org.alfresco.web.site.EditionInterceptor] Successfully retrieved license information from Alfresco.
-10:32:55,070 INFO  [org.alfresco.web.scripts.ImapServerStatus] Successfully retrieved IMAP server status from Alfresco: disabled
+08:47:18,364 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
+08:47:18,597 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
+08:47:18,598 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
+08:47:18,616 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
+08:47:25,812 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 354 Web Scripts (+0 failed), 368 URLs
+08:47:25,812 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 8 Package Description Documents (+0 failed) 
+08:47:25,812 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
+08:47:26,189 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] Initialised Spring Surf Container Web Script Container (in 7537.7256ms)
+08:47:26,203 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
+08:47:26,219 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
+08:47:26,516 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_US
+08:48:54,065 INFO  [org.alfresco.web.site.EditionInterceptor] Successfully retrieved license information from Alfresco.
+08:49:13,315 INFO  [org.alfresco.web.scripts.ImapServerStatus] Successfully retrieved IMAP server status from Alfresco: disabled
