@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/test">
+  <process id="javaCopyrightImages" name="Java Copyright Images" isExecutable="true">
+    <documentation>Update type and add aspect, then provide image source and copyright for a list of images.</documentation>
+    <userTask id="alfrescoUsertask1" name="Setup Copyright" activiti:assignee="${initiator.properties.userName}" activiti:formKey="fscwf:setupCopyrightTask">
+      <extensionElements>
+        <activiti:taskListener event="complete" class="org.alfresco.repo.workflow.activiti.tasklistener.ScriptTaskListener">
+          <activiti:field name="script">
+            <activiti:string><![CDATA[execution.setVariable('fscwf_imageSource', task.getVariable('fscwf_imageSource'));
+execution.setVariable('fscwf_copyright', task.getVariable('fscwf_copyright'));]]></activiti:string>
+          </activiti:field>
+        </activiti:taskListener>
+      </extensionElements>
+    </userTask>
+    <userTask id="alfrescoUsertask2" name="Review" activiti:assignee="${initiator.properties.userName}" activiti:formKey="fscwf:reviewTask">
+      <extensionElements>
+        <activiti:taskListener event="complete" class="org.alfresco.repo.workflow.activiti.tasklistener.ScriptTaskListener">
+          <activiti:field name="script">
+            <activiti:string><![CDATA[execution.setVariable('fscwf_reviewOutcome', task.getVariable('fscwf_reviewOutcome'));]]></activiti:string>
+          </activiti:field>
+        </activiti:taskListener>
+      </extensionElements>
+    </userTask>
+    <endEvent id="endevent1" name="End"></endEvent>
+    <serviceTask id="servicetask1" name="Add Copyright" activiti:delegateExpression="${AddCopyright}"></serviceTask>
+    <sequenceFlow id="flow2" sourceRef="alfrescoUsertask1" targetRef="servicetask1"></sequenceFlow>
+    <sequenceFlow id="flow3" sourceRef="servicetask1" targetRef="alfrescoUsertask2"></sequenceFlow>
+    <sequenceFlow id="flow4" sourceRef="alfrescoUsertask2" targetRef="exclusivegateway1"></sequenceFlow>
+    <exclusiveGateway id="exclusivegateway1" name="Exclusive Gateway"></exclusiveGateway>
+    <sequenceFlow id="flow5" sourceRef="exclusivegateway1" targetRef="endevent1">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${fscwf_reviewOutcome == 'Approve'}]]></conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="flow6" sourceRef="exclusivegateway1" targetRef="alfrescoUsertask1"></sequenceFlow>
+    <startEvent id="alfrescoStartevent1" name="Alfresco start" activiti:formKey="wf:submitAdhocTask"></startEvent>
+    <sequenceFlow id="flow7" sourceRef="alfrescoStartevent1" targetRef="alfrescoUsertask1"></sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_javaCopyrightImages">
+    <bpmndi:BPMNPlane bpmnElement="javaCopyrightImages" id="BPMNPlane_javaCopyrightImages">
+      <bpmndi:BPMNShape bpmnElement="alfrescoUsertask1" id="BPMNShape_alfrescoUsertask1">
+        <omgdc:Bounds height="55.0" width="105.0" x="476.0" y="67.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="alfrescoUsertask2" id="BPMNShape_alfrescoUsertask2">
+        <omgdc:Bounds height="55.0" width="105.0" x="476.0" y="136.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="endevent1" id="BPMNShape_endevent1">
+        <omgdc:Bounds height="35.0" width="35.0" x="511.0" y="260.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="servicetask1" id="BPMNShape_servicetask1">
+        <omgdc:Bounds height="55.0" width="105.0" x="360.0" y="67.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="exclusivegateway1" id="BPMNShape_exclusivegateway1">
+        <omgdc:Bounds height="40.0" width="40.0" x="508.0" y="208.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="alfrescoStartevent1" id="BPMNShape_alfrescoStartevent1">
+        <omgdc:Bounds height="35.0" width="35.0" x="511.0" y="20.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="flow2" id="BPMNEdge_flow2">
+        <omgdi:waypoint x="476.0" y="94.0"></omgdi:waypoint>
+        <omgdi:waypoint x="465.0" y="94.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow3" id="BPMNEdge_flow3">
+        <omgdi:waypoint x="412.0" y="122.0"></omgdi:waypoint>
+        <omgdi:waypoint x="412.0" y="163.0"></omgdi:waypoint>
+        <omgdi:waypoint x="476.0" y="163.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow4" id="BPMNEdge_flow4">
+        <omgdi:waypoint x="528.0" y="191.0"></omgdi:waypoint>
+        <omgdi:waypoint x="528.0" y="208.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow5" id="BPMNEdge_flow5">
+        <omgdi:waypoint x="528.0" y="248.0"></omgdi:waypoint>
+        <omgdi:waypoint x="528.0" y="260.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow6" id="BPMNEdge_flow6">
+        <omgdi:waypoint x="548.0" y="228.0"></omgdi:waypoint>
+        <omgdi:waypoint x="596.0" y="227.0"></omgdi:waypoint>
+        <omgdi:waypoint x="596.0" y="93.0"></omgdi:waypoint>
+        <omgdi:waypoint x="581.0" y="94.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="flow7" id="BPMNEdge_flow7">
+        <omgdi:waypoint x="528.0" y="55.0"></omgdi:waypoint>
+        <omgdi:waypoint x="528.0" y="67.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

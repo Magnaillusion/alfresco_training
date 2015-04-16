@@ -172,7 +172,7 @@
                  </control>
                </field>
 
-               <field id="fsc:iageSource">
+               <field id="fsc:imageSource">
                  <control>
                     <control-param name="maxLength">60</control-param>
                  </control>
@@ -208,5 +208,59 @@
             </appearance>
          </form>
       </forms>
+   </config>
+
+   <config evaluator="task-type" condition="fscwf:reviewTask">
+   		<forms>
+	   		<form>
+				<field-visibility>
+					<show id="packageItems" />
+					<show id="fscwf:reviewOutcome" />
+				</field-visibility>
+
+				<appearance>
+					<set id="" appearance="title" label-id="workflow.set.task.info" />
+					<set id="items" appearance="title" label-id="workflow.set.items" />
+					<set id="response" appearance="title" label-id="workflow.set.response" />
+					<field id="packageItems" set="items" />
+
+					<field id="fscwf:reviewOutcome" label-id="workflow.field.outcome" set="response">
+						<control template="/org/alfresco/components/form/controls/workflow/activiti-transitions.ftl" />
+					</field>
+				</appearance>
+			</form>
+   		</forms>
+   </config>
+
+
+   <config evaluator="task-type" condition="fscwf:setupCopyrightTask">
+   		<forms>
+   			<form>
+   				<field-visibility>
+					<show id="fscwf:imageSource" />
+					<show id="fscwf:copyright" />
+					<show id="packageItems" />
+					<show id="transitions" />
+				</field-visibility>
+
+   				<appearance>
+					<set id="" appearance="title" label-id="workflow.set.task.info" />
+					<set id="info" appearance="title" label-id="workflow.set.copyright" />
+					<set id="items" appearance="title" label-id="workflow.set.items" />
+					<set id="response" appearance="title" label-id="workflow.set.response" />
+
+					<field id="fscwf:imageSource" label-id="workflow.fscwf.image-source" set="info">
+						<control template="/org/alfresco/components/form/controls/textfield.ftl" />
+					</field>
+
+					<field id="fscwf:copyright" label-id="workflow.fscwf.copyright" set="info">
+						<control template="/org/alfresco/components/form/controls/textfield.ftl" />
+					</field>
+
+					<field id="packageItems" set="items" />
+					<field id="transitions" set="response" />
+				</appearance>
+   			</form>
+   		</forms>
    </config>
 </alfresco-config>

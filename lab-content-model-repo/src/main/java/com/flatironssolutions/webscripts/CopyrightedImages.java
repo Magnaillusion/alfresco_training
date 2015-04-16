@@ -37,9 +37,6 @@ public class CopyrightedImages extends AbstractWebScript {
     private static final QName ASPECT_COPYRIGHTED = QName.createQName("http://www.flatironssolutions.com/model/fsctraining/1.0", "copyrighted");
     private static final QName PROP_COPYRIGHT = QName.createQName("http://www.flatironssolutions.com/model/fsctraining/1.0", "copyright");
 
-
-
-
     public void setRegistry(final ServiceRegistry value) {
         registry = value;
     }

@@ -1,13 +1,16 @@
-08:47:18,364 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
-08:47:18,597 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
-08:47:18,598 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
-08:47:18,616 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
-08:47:25,812 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 354 Web Scripts (+0 failed), 368 URLs
-08:47:25,812 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 8 Package Description Documents (+0 failed) 
-08:47:25,812 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
-08:47:26,189 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] Initialised Spring Surf Container Web Script Container (in 7537.7256ms)
-08:47:26,203 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
-08:47:26,219 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
-08:47:26,516 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_US
-08:48:54,065 INFO  [org.alfresco.web.site.EditionInterceptor] Successfully retrieved license information from Alfresco.
-08:49:13,315 INFO  [org.alfresco.web.scripts.ImapServerStatus] Successfully retrieved IMAP server status from Alfresco: disabled
+12:03:44,140 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
+12:03:44,249 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
+12:03:44,250 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
+12:03:44,262 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
+12:03:53,024 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 354 Web Scripts (+0 failed), 368 URLs
+12:03:53,025 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 8 Package Description Documents (+0 failed) 
+12:03:53,025 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
+12:03:53,516 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] Initialised Spring Surf Container Web Script Container (in 9224.968ms)
+12:03:53,547 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
+12:03:53,563 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
+12:03:53,793 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_US
+12:06:55,178 INFO  [org.alfresco.web.site.EditionInterceptor] Successfully retrieved license information from Alfresco.
+12:07:35,538 INFO  [org.alfresco.web.scripts.ImapServerStatus] Successfully retrieved IMAP server status from Alfresco: disabled
+12:14:56,136 INFO  [org.alfresco.web.scripts.MimetypesQuery] Successfully retrieved mimetypes information from Alfresco.
+12:27:58,021 INFO  [org.alfresco.web.scripts.GoogleDocsStatus] Successfully retrieved Google Docs subsystem status from Alfresco: false
+12:28:02,243 INFO  [org.alfresco.web.scripts.DictionaryQuery] Successfully retrieved Data Dictionary from Alfresco.
