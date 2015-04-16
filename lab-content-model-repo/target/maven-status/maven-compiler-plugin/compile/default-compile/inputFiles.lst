@@ -1,2 +1,3 @@
 /data/workspace/lab-content-model-repo/src/main/java/com/flatironssolutions/workflow/AddCopyright.java
+/data/workspace/lab-content-model-repo/src/main/java/com/flatironssolutions/actions/MoveReplacedAction.java
 /data/workspace/lab-content-model-repo/src/main/java/com/flatironssolutions/webscripts/CopyrightedImages.java

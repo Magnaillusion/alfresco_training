@@ -31,4 +31,13 @@
 
 	<bean id="AddCopyright" parent="baseJavaDelegate" class="com.flatironssolutions.workflow.AddCopyright" />
 
+	<bean id="move-replaced" class="com.flatironssolutions.actions.MoveReplacedAction" parent="action-executer">
+	    <property name="fileFolderService">
+	        <ref bean="FileFolderService" />
+	    </property>
+
+	    <property name="nodeService">
+	        <ref bean="NodeService" />
+	    </property>
+	</bean>
 </beans>

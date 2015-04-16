@@ -3,9 +3,11 @@ add|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutio
 add|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/dashlets/copyrightedimages.get.html.ftl
 add|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/dashlets/copyrightedimages.get.properties
 add|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/dashlets/copyrightedimages.get.js
+add|/WEB-INF/classes/alfresco/web-extension/actions-article-share-context.xml
 add|/WEB-INF/classes/alfresco/web-extension/lab-content-model-share-context.xml
 add|/WEB-INF/classes/alfresco/module/lab-content-model-share/workflows/copyright-images.bpmn20.xml
 add|/WEB-INF/classes/alfresco/module/lab-content-model-share/workflows/copyright-images-java.bpmn20.xml
+add|/WEB-INF/classes/alfresco/module/lab-content-model-share/messages/scActions.properties
 add|/WEB-INF/classes/alfresco/module/lab-content-model-share/messages/labContentModel.properties
 add|/WEB-INF/classes/alfresco/module/lab-content-model-share/log4j.properties
 mkdir|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/dashlets

@@ -27,6 +27,7 @@
       <aspects>
          <visible>
             <aspect name="fsc:copyrighted" />
+            <aspect name="cm:replaceable" />
          </visible>
 
          <addable>
@@ -109,6 +110,8 @@
                <show id="surf:mid"/>
                <show id="surf:label"/>
 
+               <!--cm:replaceable-->
+			   <show id="cm:replaceable" />
             </field-visibility>
             <appearance>
                <field id="cm:name">
@@ -150,6 +153,8 @@
                <field id="cm:subjectline" read-only="true" />
 
                <field id="fsc:imageSource" label-id="prop.fsc_imageSource" />
+
+               <field id="cm:replaces" label-id="assoc.cm_replaces"/>
             </appearance>
          </form>
 

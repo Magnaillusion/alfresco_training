@@ -1,2 +1,3 @@
 com/flatironssolutions/workflow/AddCopyright.class
+com/flatironssolutions/actions/MoveReplacedAction.class
 com/flatironssolutions/webscripts/CopyrightedImages.class
