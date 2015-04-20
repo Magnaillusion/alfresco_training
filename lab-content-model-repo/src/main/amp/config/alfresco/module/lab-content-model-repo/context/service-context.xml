@@ -40,4 +40,12 @@
 	        <ref bean="NodeService" />
 	    </property>
 	</bean>
+
+	<bean id="${project.artifactId}_dictionaryBootstrap" parent="dictionaryModelBootstrap" depends-on="dictionaryBootstrap">
+	    <property name="models">
+	        <list>
+	            <value>alfresco/module/${project.artifactId}/model/scContentModel.xml</value>
+	        </list>
+	    </property>
+	</bean>
 </beans>

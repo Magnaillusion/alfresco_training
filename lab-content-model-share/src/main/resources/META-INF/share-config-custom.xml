@@ -268,4 +268,32 @@
    			</form>
    		</forms>
    </config>
+
+   <config evaluator="string-compare" condition="DocumentLibrary">
+   		<aspects>
+		    <!-- Aspects that a user can see -->
+		    <visible>
+		        <aspect name="sc:webable" />
+		        <aspect name="sc:productRelated" />
+		    </visible>
+
+		    <!-- Aspects that a user can add. Same as "visible" if left empty -->
+		    <addable>
+		    </addable>
+
+		    <!-- Aspects that a user can remove. Same as "visible" if left empty -->
+		    <removeable>
+		    </removeable>
+		</aspects>
+
+		<types>
+		    <type name="cm:content">
+		        <subtype name="sc:doc" />
+		        <subtype name="sc:whitepaper" />
+		    </type>
+		    <type name="sc:doc">
+		        <subtype name="sc:whitepaper" />
+		    </type>
+		</types>
+   </config>
 </alfresco-config>

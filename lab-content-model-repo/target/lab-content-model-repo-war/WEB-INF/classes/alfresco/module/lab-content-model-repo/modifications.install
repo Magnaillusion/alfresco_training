@@ -2,6 +2,7 @@ add|/WEB-INF/lib/lab-content-model-repo.jar
 add|/WEB-INF/classes/alfresco/module/lab-content-model-repo/context/service-context.xml
 add|/WEB-INF/classes/alfresco/module/lab-content-model-repo/workflows/copyright-images.bpmn20.xml
 add|/WEB-INF/classes/alfresco/module/lab-content-model-repo/workflows/copyright-images-java.bpmn20.xml
+add|/WEB-INF/classes/alfresco/module/lab-content-model-repo/model/scContentModel.xml
 add|/WEB-INF/classes/alfresco/module/lab-content-model-repo/model/labContentModel.xml
 add|/WEB-INF/classes/alfresco/module/lab-content-model-repo/model/fscwfContentModel.xml
 add|/WEB-INF/classes/alfresco/module/lab-content-model-repo/log4j.properties
