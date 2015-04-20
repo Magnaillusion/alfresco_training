@@ -1,4 +1,9 @@
+add|/components/someco/rules/config/rule-config-action-custom.js
 add|/WEB-INF/lib/lab-content-model-share.jar
+add|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/rules/config/rule-config-action-custom.js
+add|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/rules/config/rule-config-action.get.config.xml
+add|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/rules/rule-edit.get.html.ftl
+add|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/rules/rule-details.get.html.ftl
 add|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/dashlets/copyrightedimages.get.desc.xml
 add|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/dashlets/copyrightedimages.get.html.ftl
 add|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/dashlets/copyrightedimages.get.properties
@@ -10,6 +15,11 @@ add|/WEB-INF/classes/alfresco/module/lab-content-model-share/workflows/copyright
 add|/WEB-INF/classes/alfresco/module/lab-content-model-share/messages/scActions.properties
 add|/WEB-INF/classes/alfresco/module/lab-content-model-share/messages/labContentModel.properties
 add|/WEB-INF/classes/alfresco/module/lab-content-model-share/log4j.properties
+mkdir|/components/someco/rules/config
+mkdir|/components/someco/rules
+mkdir|/components/someco
+mkdir|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/rules/config
+mkdir|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/rules
 mkdir|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components/dashlets
 mkdir|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions/components
 mkdir|/WEB-INF/classes/alfresco/web-extension/site-webscripts/com/flatironssolutions

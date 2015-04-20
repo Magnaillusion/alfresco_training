@@ -1,15 +1,15 @@
-09:13:18,900 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
-09:13:19,119 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
-09:13:19,123 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
-09:13:19,144 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
-09:13:27,972 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 354 Web Scripts (+0 failed), 368 URLs
-09:13:27,973 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 8 Package Description Documents (+0 failed) 
-09:13:27,973 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
-09:13:28,458 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] Initialised Spring Surf Container Web Script Container (in 9273.872ms)
-09:13:28,475 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
-09:13:28,501 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
-09:13:28,812 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_US
-09:20:40,499 INFO  [org.alfresco.web.site.EditionInterceptor] Successfully retrieved license information from Alfresco.
-09:21:05,665 INFO  [org.alfresco.web.scripts.ImapServerStatus] Successfully retrieved IMAP server status from Alfresco: disabled
-09:21:22,397 INFO  [org.alfresco.web.scripts.GoogleDocsStatus] Successfully retrieved Google Docs subsystem status from Alfresco: false
-09:21:26,926 INFO  [org.alfresco.web.scripts.DictionaryQuery] Successfully retrieved Data Dictionary from Alfresco.
+08:36:01,817 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
+08:36:01,917 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
+08:36:01,918 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
+08:36:01,925 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
+08:36:13,245 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 354 Web Scripts (+0 failed), 368 URLs
+08:36:13,246 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 8 Package Description Documents (+0 failed) 
+08:36:13,266 INFO  [org.springframework.extensions.webscripts.DeclarativeRegistry] Registered 0 Schema Description Documents (+0 failed) 
+08:36:14,223 INFO  [org.springframework.extensions.webscripts.AbstractRuntimeContainer] Initialised Spring Surf Container Web Script Container (in 12280.308ms)
+08:36:14,285 INFO  [org.springframework.extensions.webscripts.TemplateProcessorRegistry] Registered template processor freemarker for extension ftl
+08:36:14,322 INFO  [org.springframework.extensions.webscripts.ScriptProcessorRegistry] Registered script processor javascript for extension js
+08:36:14,836 WARN  [org.apache.myfaces.shared_impl.util.LocaleUtils] Locale name in faces-config.xml null or empty, setting locale to default locale : en_US
+08:37:49,457 INFO  [org.alfresco.web.site.EditionInterceptor] Successfully retrieved license information from Alfresco.
+08:38:22,724 INFO  [org.alfresco.web.scripts.ImapServerStatus] Successfully retrieved IMAP server status from Alfresco: disabled
+08:38:29,288 INFO  [org.alfresco.web.scripts.GoogleDocsStatus] Successfully retrieved Google Docs subsystem status from Alfresco: false
+08:38:35,466 INFO  [org.alfresco.web.scripts.DictionaryQuery] Successfully retrieved Data Dictionary from Alfresco.
